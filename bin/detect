@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -f $1/deploy/Dockerfile ] && [ -f $1/deploy/Makefile ]; then
+  echo "Dockerised app"
+  exit 0
+else
+  echo "no ./deploy/Dockerfile or ./deploy/Makefile"
+  exit 1
+fi
