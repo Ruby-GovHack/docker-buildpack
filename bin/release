@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
+cd $1
 make rebuildandserve
 echo "Dockerised app released."
