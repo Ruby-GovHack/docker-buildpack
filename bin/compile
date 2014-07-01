@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 
 # Install docker
-curl -s https://get.docker.io/ubuntu/ | sudo sh
-
-make rebuildandserve
+curl -s https://get.docker.io/ubuntu/ | sh
