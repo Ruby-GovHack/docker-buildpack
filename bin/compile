@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-cd $1
-pwd
-echo $HOSTNAME
+curl -s https://get.docker.io/ubuntu/ | sudo sh
+
 make rebuildandserve
