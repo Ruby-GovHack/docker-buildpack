@@ -2,4 +2,4 @@
 
 cd $1
 pwd
-sudo make rebuildandserve
+sudo su -l dokku -c "make rebuildandserve"
