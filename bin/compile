@@ -2,4 +2,5 @@
 
 cd $1
 pwd
-sudo su -l dokku -c "make rebuildandserve"
+echo $HOSTNAME
+make rebuildandserve
